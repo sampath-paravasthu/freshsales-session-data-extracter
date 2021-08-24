@@ -1,0 +1,1 @@
+# freshsales-session-knowledge-extension

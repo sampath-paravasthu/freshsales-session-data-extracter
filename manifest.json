@@ -1,0 +1,22 @@
+{
+  "name": "Freshsales Session Knowledge",
+  "description": "Get freshsales account and user details on the fly",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "page_action": {
+    "default_title": "Get freshsales account and user details on the fly",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
+}
