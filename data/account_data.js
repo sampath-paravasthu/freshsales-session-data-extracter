@@ -135,14 +135,14 @@ let account_data = (account_info) => {
       account_info
     ),
     new buildData(
-      'Product Migration Status - CPQ',
-      'String',
+      'Product Migration Status - CPQ [in_progress: 1, delta_migration_progress: 2, completed: 3, failed: 4]',
+      'Number',
       'cpq_configs.product_migration_status',
       account_info
     ),
     new buildData(
-      'CPQ document Migration Status',
-      'String',
+      'CPQ document Migration Status [in_progress: 1, delta_migration_progress: 2, completed: 3, failed: 4]',
+      'Number',
       'cpq_configs.cpq_document_migration_status',
       account_info
     ),
