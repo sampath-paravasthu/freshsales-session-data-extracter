@@ -111,6 +111,42 @@ let account_data = (account_info) => {
       account_info
     ),
     new buildData(
+      'Product Enabled - CPQ config',
+      'Boolean',
+      'cpq_configs.product_enabled',
+      account_info
+    ),
+    new buildData(
+      'CPQ document enabled',
+      'Boolean',
+      'cpq_configs.cpq_document_enabled',
+      account_info
+    ),
+    new buildData(
+      'Add products to deal - CPQ',
+      'Boolean',
+      'cpq_configs.add_products_to_deal',
+      account_info
+    ),
+    new buildData(
+      'Tax Percent - CPQ',
+      'Number',
+      'cpq_configs.tax_percent',
+      account_info
+    ),
+    new buildData(
+      'Product Migration Status - CPQ',
+      'String',
+      'cpq_configs.product_migration_status',
+      account_info
+    ),
+    new buildData(
+      'CPQ document Migration Status',
+      'String',
+      'cpq_configs.cpq_document_migration_status',
+      account_info
+    ),
+    new buildData(
       'Created At',
       'String',
       'created_at',
