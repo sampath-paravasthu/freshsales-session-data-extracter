@@ -1,4 +1,4 @@
-const _get = (obj, path, defValue) => {
+const _get = (obj, path, defValue = '-') => {
   // If path is not defined or it has false value
   if (!path) return undefined
   // Check if path is string or array. Regex : ensure that we do not have '.' and brackets.

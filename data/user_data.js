@@ -3,6 +3,18 @@ import buildData from '../utils/build_data.js';
 let user_data = (user_info) => {
   return [
     new buildData(
+      'User ID',
+      'Number',
+      'id',
+      user_info
+    ),
+    new buildData(
+      'CRM Migration In Progress',
+      'Boolean',
+      'crm_migration_in_progress',
+      user_info
+    ),
+    new buildData(
       'Abilities',
       'Array',
       'abilities',
@@ -24,12 +36,6 @@ let user_data = (user_info) => {
       'Confirmed',
       'Boolean',
       'confirmed',
-      user_info
-    ),
-    new buildData(
-      'CRM Migration In Progress',
-      'Boolean',
-      'crm_migration_in_progress',
       user_info
     ),
     new buildData(
@@ -60,12 +66,6 @@ let user_data = (user_info) => {
       'E-Mail Tracking',
       'Boolean',
       'email_tracking',
-      user_info
-    ),
-    new buildData(
-      'User ID',
-      'Number',
-      'id',
       user_info
     ),
     new buildData(

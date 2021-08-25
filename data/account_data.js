@@ -3,6 +3,24 @@ import buildData from '../utils/build_data.js';
 let account_data = (account_info) => {
   return [
     new buildData(
+      'Freshsales Account ID',
+      'Number',
+      'id',
+      account_info
+    ),
+    new buildData(
+      'Freshcaller Id',
+      'Number',
+      'freshcaller_account.id',
+      account_info
+    ),
+    new buildData(
+      'Freshcaller Account Id',
+      'Number',
+      'freshcaller_account.freshcaller_account_id',
+      account_info
+    ),
+    new buildData(
       'Calendar Sync Enabled',
       'Boolean',
       'additional_information.calendar_sync_enabled',
@@ -164,18 +182,6 @@ let account_data = (account_info) => {
       'features',
       account_info
     ),
-    new buildData(
-      'Freshcaller Account Id',
-      'Number',
-      'freshcaller_account.freshcaller_account_id',
-      account_info
-    ),
-    new buildData(
-      'Freshcaller Id',
-      'Number',
-      'freshcaller_account.id',
-      account_info
-    ),
     new buildData('Freshcaller Status',
       'Number',
       'freshcaller_account.status',
@@ -185,12 +191,6 @@ let account_data = (account_info) => {
       'Full Contact Enabled',
       'Boolean',
       'full_contact_enabled',
-      account_info
-    ),
-    new buildData(
-      'Freshsales Account ID',
-      'Number',
-      'id',
       account_info
     ),
     new buildData(
