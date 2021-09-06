@@ -13,3 +13,7 @@
 - Voila, You're just a click away from getting the account information
 
 > Don't delete the extension folder from your laptop/desktop after loading it in chrome.
+
+### screenshot :
+
+![alt text](../freshsales-session-info/image/screenshot.png)
