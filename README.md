@@ -16,4 +16,4 @@
 
 ### screenshot :
 
-![alt text](../freshsales-session-info/image/screenshot.png)
+![alt text](./image/screenshot.png)
