@@ -2,7 +2,7 @@
 
 ### USAGE :
 
-- Download the extension
+- Download the extension as zip from the `release` folder and extract it in your local machine
 - Open Google Chrome
 - Go to options => More tools => Extensions
 - Toggle on 'Developer mode'
