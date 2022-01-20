@@ -14,6 +14,8 @@
 
 > Don't delete the extension folder from your laptop/desktop after loading it in chrome.
 
+### Login into any FRESHSALES account and click the extension, you must see the data populating.
+
 ### screenshot :
 
 ![alt text](./image/screenshot.png)
